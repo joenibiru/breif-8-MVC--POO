@@ -1,45 +1,55 @@
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
- body {
-    color: #030303;
-    background: black;
-    font-family: 'Roboto Slab', serif;
-} 
 
+body {
+  color: #030303;
+  background: black;
+  font-family: 'Roboto Slab', serif;
+}
 
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
-.paragraphe{
-    color: white;
-    text-align: center;
-}
-.card {
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: rgb(228, 31, 31);
-    border-radius: 10px;
-  }
 
-.card-img-top{
-  width: 320px;
-  height: 350px;
-margin-top: 10px;
-margin-left: 7px;
-}
-h1{
+.paragraphe {
+  color: white;
   text-align: center;
 }
-h2{
+
+.card {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(228, 31, 31);
+  border-radius: 10px;
+}
+
+.card-img-top {
+  width: 320px;
+  height: 350px;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
   text-align: right;
   margin-right: 10px;
 }
-h4{
+
+h4 {
   color: white;
 }
-p{
+
+p {
   color: white;
+}
+footer{
+  text-align: center;
 }

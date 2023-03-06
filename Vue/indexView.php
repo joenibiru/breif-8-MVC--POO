@@ -85,9 +85,10 @@ if (isset($_POST['checkout'])) {
                     </div>
                 <?php endforeach; ?>
             </div>
- 
+
         </div>
     </header>
 </body>
+
 
 </html>

@@ -1,5 +1,5 @@
 <?php
-
+require_once('Vue/indexView.php');
 class Product
 {
     private $id;
@@ -59,7 +59,8 @@ class Product
         }
 
         // Récupération des produits
-        $stmt = $pdo->query('SELECT id, nom, description, prix, image FROM article');
+        $stmt = $pdo->prepare('SELECT id, nom, description, prix, image FROM article');
+        $stmt->execute();
         $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         // Création des objets Product

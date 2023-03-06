@@ -44,4 +44,20 @@ class Cart
     {
         return $this->items;
     }
-}
+
+    public function getItem($product_id)
+    {
+        if (isset($this->items[$product_id])) {
+            return $this->items[$product_id];
+        }
+        return null;
+    }
+
+    public function updateItem($product_id, $product_qty)
+    {
+        if (isset($this->items[$product_id])) {
+            $this->items[$product_id]['qty'] = $product_qty;
+        }
+    }
+}    
+?>

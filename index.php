@@ -14,7 +14,6 @@ $cart_items = $controller->getCartItems();
 $cart_total = $controller->getCartTotal();
 
 ?>
-
 <div class="row mt-5">
     <div class="col-md-6">
         <h4>Panier</h4>
@@ -68,4 +67,6 @@ $cart_total = $controller->getCartTotal();
         <?php endif; ?>
     </div>
 </div>
-
+<footer>
+    <p>Copyright © 2023</p>
+</footer>
